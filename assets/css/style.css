@@ -16,28 +16,46 @@ header {
     width: 100%;
     height: 100px;
     background-color: azure;
+    border-bottom: 4px solid rgb(143, 22, 22);;
 }
 /* This ensure the nav bar links remain at the right and center of the header*/
 nav {
     text-align: end;
     margin: 40px 30px;
 }
+
 /* The nav bar links are placed next to each other  */
 li {
     display: inline;
     margin: 6px;
 }
+/* Styles nav bar links */
+a {
+    text-decoration: none;
+}
 /* This makes sure the main content isn't overlapped by the nav bar */
 main { 
     padding: 90px 0 0 40px;
+}
+/* Increments size of "Welcome" heading */
+h1 {
+    font-size: 60px;
+}
+.red-color {
+    color: rgb(143, 22, 22);
 }
 /* This ensures the image and caption are at the center of the page */
 figure {
     text-align: center;
 }
-
+/* Add spaces between the form inputs */
 .form-input {
-    margin: 5px 0;
+    margin: 10px 0;
+}
+
+/* Styles title of contact form */
+#contact-form h4 {
+    font-size: 25px;
 }
 /* This is so the footer content remains at the right side of the page */
 footer {
